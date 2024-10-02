@@ -49,7 +49,7 @@ app.use(router.routes()).use(router.allowedMethods());
 
 const server = http.createServer(app.callback());
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 server.listen(port, (err) => {
   if (err) {
